@@ -1,0 +1,32 @@
+#music {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.front {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+
+.front {
+  z-index: 1;
+}
+
+.back {
+  z-index: 3;
+}
+
+#music #control-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+#music #pause-play {
+  height: 60px;
+  width: 60px;
+}
